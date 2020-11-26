@@ -15,9 +15,9 @@ In this project, we would like to play with the language feature from the origin
 
 ### Proposed dataset
 
-EgoAlterProfile: The dataset contains tweets counts, language, number of friends… of over 1,000,000 users on Twitter. There are at least 20 languages which have more than 1000 users in the dataset. It is large enough for us to analyze our first research question. From this dataset, we could get the distribution of features such as number of tweets, number of followers, number of friends, and years of subscription among different languages.
+`EgoAlterProfile`: The dataset contains tweets counts, language, number of friends… of over 1,000,000 users on Twitter. There are at least 20 languages which have more than 1000 users in the dataset. It is large enough for us to analyze our first research question. From this dataset, we could get the distribution of features such as number of tweets, number of followers, number of friends, and years of subscription among different languages.
 
-EgoNetwork: The dataset contains more than 3,000,000 following relations of users in EgoAlterProfile dataset. Combining it with the EgoAlterProfile dataset, we can construct a network with language features and solve our second research question. It could help even in the third research question.
+`EgoNetwork`: The dataset contains more than 3,000,000 following relations of users in EgoAlterProfile dataset. Combining it with the EgoAlterProfile dataset, we can construct a network with language features and solve our second research question. It could help even in the third research question.
 
 
 ### Methods
@@ -34,7 +34,7 @@ EgoNetwork: The dataset contains more than 3,000,000 following relations of user
 
 ### Questions for TAs (optional)
 
-Is this too much for the given deadline? Should we try to focus on a subset of 		research questions?
+Is this too much for the given deadline? Should we try to focus on a subset of the research questions?
 
 
 
