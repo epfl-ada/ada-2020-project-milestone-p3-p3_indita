@@ -31,9 +31,9 @@ In this project, we would like to play with the language feature from the origin
 
 ### Proposed timeline
 
-28.11.20 ~ 04.12.20: focus on the first two research question
-05.12.20 ~ 11.12.20: focus on the last research question
-12.12.20 ~ 18.12.20: organize the code and write the report
+- 28.11.20 ~ 04.12.20: focus on the first two research question
+- 05.12.20 ~ 11.12.20: focus on the last research question
+- 12.12.20 ~ 18.12.20: organize the code and write the report
 
 
 ### Organization within the team
