@@ -3,21 +3,21 @@
 
 ### Abstract
 
-In this project, we would like to play with the language feature from the original dataset. There is always a stereotype that western people are more active in social media than eastern people. To check if it is true or not, we propose to analyze the features’ distribution of different language users. We can decide the activeness from some features such as tweet counts, friend numbers .... Moreover, we would like to learn if there exists language or geographical location clusters on Twitter. If so, we also want to learn to what extent they are going to interact with different clusters. To do so, we would run the community algorithm provided by networkx modules and see if we can detect the clusters of different language groups. In the end, we could apply machine learning to see if we can predict the language of a user based on the features of his/her own Twitter profile and that of the follower-followee network.
+In this project, we would like to play with the language feature from the original dataset. There is always a stereotype that western people are more active in social media than eastern people. To check if it is true or not, we propose to analyze the features’ distribution of different language users. We can decide the activeness from some features such as tweet counts, friend numbers .... Moreover, we would like to learn if there exists language clusters on Twitter. If so, we also want to learn to what extent they are going to interact with different clusters. To do so, we would run the community algorithm provided by networkx modules and see if we can detect the clusters of different language groups. In the end, we could apply machine learning to see if we can predict the language of a user based on the features of his/her own Twitter profile and that of the follower-followee network.
 
 
 ### Research Questions
 
 - Do different language users have different usage behaviors on Twitter? ( i.e. number of tweets, number of followers, number of followees, years of subscription)
-- Is there a follower-followee pattern among users based on the same language or geographical locations?
+- Is there a language clusters on Twitter? If so, to what extent they are going to interact with different clusters?
 - Can we predict the language of a user based on the features of his/her own Twitter profile and that of the follower-followee network?
 
 
 ### Proposed dataset
 
-`EgoAlterProfile`: The dataset contains tweets counts, language, number of friends… of over 1,000,000 users on Twitter. There are at least 20 languages which have more than 1000 users in the dataset. It is large enough for us to analyze our first research question. From this dataset, we could get the distribution of features such as number of tweets, number of followers, number of friends, and years of subscription among different languages.
+`EgoAlterProfile`: The dataset is from the original paper. The dataset contains tweets counts, language, number of friends… of over 1,000,000 users on Twitter. There are at least 20 languages which have more than 1000 users in the dataset. It is large enough for us to analyze our first research question. From this dataset, we could get the distribution of features such as number of tweets, number of followers, number of friends, and years of subscription among different languages.
 
-`EgoNetwork`: The dataset contains more than 3,000,000 following relations of users in EgoAlterProfile dataset. Combining it with the EgoAlterProfile dataset, we can construct a network with language features and solve our second research question. It could help even in the third research question.
+`EgoNetwork`: The dataset is from the original paper. The dataset contains more than 3,000,000 following relations of users in EgoAlterProfile dataset. Combining it with the EgoAlterProfile dataset, we can construct a network with language features and solve our second research question. It could help even in the third research question.
 
 
 ### Methods
@@ -31,12 +31,16 @@ In this project, we would like to play with the language feature from the origin
 
 ### Proposed timeline
 
-- 28.11.20 ~ 04.12.20: focus on the first two research question
-- 05.12.20 ~ 11.12.20: focus on the last research question
-- 12.12.20 ~ 18.12.20: organize the code and write the report
+- **Week1** 28.11.20 ~ 04.12.20: do data analysis of the first two research questions
+- **Week2** 05.12.20 ~ 11.12.20: focus on the last research question
+- **Week3** 12.12.20 ~ 18.12.20: organize the code and write the report
 
 
 ### Organization within the team
+
+- On week1, Po-Jui and Kushagra will plot the features' distribution figure of different countries and construct the directed network by networkx modules with language attribute. At the same time, Riccardo will do the feature preprocessing of the third task.
+- On week2, all of us will try to train the model to predict the language of a user based on other features.
+- On week3, all of us will focus on writing report and making short video.
 
 
 ### Questions for TAs (optional)
