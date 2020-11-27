@@ -38,7 +38,7 @@ In this project, we would like to play with the language feature from the origin
 
 ### Organization within the team
 
-- On week1, Po-Jui and Kushagra will plot the features' distribution figure of different countries and construct the directed network by networkx modules with language attribute. At the same time, Riccardo will do the feature preprocessing of the third task.
+- On week1, Po-Jui and Kushagra will plot the features' distribution figure of different languages and construct the directed network by networkx modules with language attribute. At the same time, Riccardo will do the feature preprocessing of the third task.
 - On week2, all of us will try to train the model to predict the language of a user based on other features.
 - On week3, all of us will focus on writing report and making short video.
 
