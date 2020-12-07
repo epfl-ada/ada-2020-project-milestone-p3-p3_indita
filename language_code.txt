@@ -1,0 +1,28 @@
+cs    czech
+fi    finnish
+sv    swedish
+pl    polish
+da    danish
+ru    russian
+fr    french
+ca    catalan
+nl    dutch
+de    german
+pt    Portuguese
+it    italian
+es    spanish
+en-gb english united kingdom
+
+en    english united state
+
+
+ar    arabic
+id    Indonesian
+tr    turkish
+zh-tw traditional chinese
+zh-cn chinese
+ja    japanese
+th    thai
+ko    korean
+fil   filipino
+msa   malay
