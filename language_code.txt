@@ -26,3 +26,12 @@ th    thai
 ko    korean
 fil   filipino
 msa   malay
+
+
+['bg', 'ca', 'cs', 'da', 'de', 'el', 'en', 'en-au', 'en-gb', 'es', 'es-mx', 'eu', 'fa', 'fi',  'fr', 'he', 'hi', 'hr', 'hu',   'it', 'ka', 'lv', 'nb', 'nl', 'no', 'pl', 'pt', 'pt-pt', 'ro', 'ru', 'sr', 'sv', 'uk']
+
+['ar', 'az', 'fil', 'id', 'in', 'ja', 'ko', 'ms', 'msa', 'th', 'tr', 'vi' , 'zh', 'zh-cn', 'zh-hans', 'zh-hant', 'zh-tw']
+
+in id
+ms msa
+pt pt-pt
