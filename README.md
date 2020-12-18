@@ -51,6 +51,6 @@ Is this too much work for the given deadline? Should we try to focus on a subset
 ### Contribution
 
 - Po-Jui Chang: data preprocessing, using behavior analysis, build data story webpage, write data story
-- Riccardo Cadei:
+- Riccardo Cadei: data preprocessing and featiure augmentation, machine learning part, write data story
 - Kushagra Shah:
 
